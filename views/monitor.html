@@ -1,0 +1,17 @@
+<div ng-controller="Monitor">
+
+
+	<table style="width:100%">
+		<tr>
+			<th>Action</th>
+			<th>User</th>
+			<th>Timestamp</th>
+		</tr>
+		<tr ng-repeat="event in events">
+			<td align="center">{{event.name}}</td>
+			<td align="center">{{event.user}}</td>
+			<td align="center">{{event.timestamp}}</td>
+		</tr>
+	</table>
+
+</div>

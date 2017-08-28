@@ -1,0 +1,23 @@
+<html>
+<head>
+
+<!-- Angular packages -->
+
+<script src="bower_components/angular/angular.min.js"></script>
+<script src="bower_components/angular-route/angular-route.min.js"></script>
+<script src="bower_components/ng-websocket/ng-websocket.js"></script>
+
+<!--  Main entry points to the app -->
+
+<script src="scripts/app.js"></script>
+<script src="scripts/routes.js"></script>
+
+<!-- Controllers for the SPA -->
+
+<script src="modules/monitorcommit/monitorcontroller.js"></script>
+
+</head>
+<body ng-app="App">
+    <div ng-view></div>
+</body>
+</html>
